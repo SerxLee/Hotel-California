@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358D8F95CC027A87A56029AA /* libPods-JiaGeXianForiPone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7458125C20CD4570C62A2C /* libPods-JiaGeXianForiPone.a */; };
+		907D7A5425E5D9D9F18C59FA /* libPods-JiaGeXianForiPoneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D856FD6DD978A22342A6704 /* libPods-JiaGeXianForiPoneTests.a */; };
+		9B5CB3261C5DEBE600C2AEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB3251C5DEBE600C2AEC6 /* AppDelegate.swift */; };
+		9B5CB3281C5DEBE600C2AEC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB3271C5DEBE600C2AEC6 /* ViewController.swift */; };
+		9B5CB32B1C5DEBE600C2AEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB3291C5DEBE600C2AEC6 /* Main.storyboard */; };
+		9B5CB32D1C5DEBE600C2AEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB32C1C5DEBE600C2AEC6 /* Assets.xcassets */; };
+		9B5CB3301C5DEBE600C2AEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB32E1C5DEBE600C2AEC6 /* LaunchScreen.storyboard */; };
+		9B5CB33B1C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB33A1C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.swift */; };
+		9B5CB3461C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB3451C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift */; };
+		9B5CB3541C5DEC0500C2AEC6 /* PopupControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5CB3531C5DEC0500C2AEC6 /* PopupControl.framework */; };
+		9BDAE95A1C5DEFBF002336D7 /* HotelBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAE9591C5DEFBF002336D7 /* HotelBL.swift */; };
+		D863153096C14996A74E7DC8 /* libPods-JiaGeXianForiPoneUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F786EF5AA4F95961AA768A /* libPods-JiaGeXianForiPoneUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5CB3371C5DEBE600C2AEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5CB31A1C5DEBE600C2AEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5CB3211C5DEBE600C2AEC6;
+			remoteInfo = JiaGeXianForiPone;
+		};
+		9B5CB3421C5DEBE600C2AEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5CB31A1C5DEBE600C2AEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5CB3211C5DEBE600C2AEC6;
+			remoteInfo = JiaGeXianForiPone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2938C4C8F46C8635741ED917 /* Pods-JiaGeXianForiPone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPone/Pods-JiaGeXianForiPone.debug.xcconfig"; sourceTree = "<group>"; };
+		6D856FD6DD978A22342A6704 /* libPods-JiaGeXianForiPoneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiaGeXianForiPoneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F786EF5AA4F95961AA768A /* libPods-JiaGeXianForiPoneUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiaGeXianForiPoneUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8470DC992027C85EEA6BC8 /* Pods-JiaGeXianForiPoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPoneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPoneUITests/Pods-JiaGeXianForiPoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B5CB3221C5DEBE600C2AEC6 /* JiaGeXianForiPone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiaGeXianForiPone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5CB3251C5DEBE600C2AEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B5CB3271C5DEBE600C2AEC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B5CB32A1C5DEBE600C2AEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B5CB32C1C5DEBE600C2AEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5CB32F1C5DEBE600C2AEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B5CB3311C5DEBE600C2AEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5CB3361C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiaGeXianForiPoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5CB33A1C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiaGeXianForiPoneTests.swift; sourceTree = "<group>"; };
+		9B5CB33C1C5DEBE600C2AEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5CB3411C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiaGeXianForiPoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5CB3451C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiaGeXianForiPoneUITests.swift; sourceTree = "<group>"; };
+		9B5CB3471C5DEBE600C2AEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5CB3531C5DEC0500C2AEC6 /* PopupControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopupControl.framework; path = "../PopupControl/build/Debug-iphoneos/PopupControl.framework"; sourceTree = "<group>"; };
+		9BDAE9561C5DEEE9002336D7 /* JiaGeXianForiPone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JiaGeXianForiPone-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		9BDAE9591C5DEFBF002336D7 /* HotelBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HotelBL.swift; path = JiaGeXianForiPone/HotelBL.swift; sourceTree = "<group>"; };
+		9BDAE95B1C5DF71D002336D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9E49A7B1E63A916E43DF435E /* Pods-JiaGeXianForiPoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPoneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPoneUITests/Pods-JiaGeXianForiPoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D10E37D7F622772419EBAA9B /* Pods-JiaGeXianForiPoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPoneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPoneTests/Pods-JiaGeXianForiPoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5861E7959A0DCA46CA99606 /* Pods-JiaGeXianForiPoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPoneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPoneTests/Pods-JiaGeXianForiPoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC7458125C20CD4570C62A2C /* libPods-JiaGeXianForiPone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiaGeXianForiPone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD90F5A4EADABCDF68BF4F6E /* Pods-JiaGeXianForiPone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPone.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPone/Pods-JiaGeXianForiPone.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B5CB31F1C5DEBE600C2AEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5CB3541C5DEC0500C2AEC6 /* PopupControl.framework in Frameworks */,
+				358D8F95CC027A87A56029AA /* libPods-JiaGeXianForiPone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB3331C5DEBE600C2AEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907D7A5425E5D9D9F18C59FA /* libPods-JiaGeXianForiPoneTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB33E1C5DEBE600C2AEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D863153096C14996A74E7DC8 /* libPods-JiaGeXianForiPoneUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101A0DA8AF29676EE3C05F25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC7458125C20CD4570C62A2C /* libPods-JiaGeXianForiPone.a */,
+				6D856FD6DD978A22342A6704 /* libPods-JiaGeXianForiPoneTests.a */,
+				93F786EF5AA4F95961AA768A /* libPods-JiaGeXianForiPoneUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9065C4A92E0996F5A01B0D1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2938C4C8F46C8635741ED917 /* Pods-JiaGeXianForiPone.debug.xcconfig */,
+				FD90F5A4EADABCDF68BF4F6E /* Pods-JiaGeXianForiPone.release.xcconfig */,
+				D5861E7959A0DCA46CA99606 /* Pods-JiaGeXianForiPoneTests.debug.xcconfig */,
+				D10E37D7F622772419EBAA9B /* Pods-JiaGeXianForiPoneTests.release.xcconfig */,
+				9A8470DC992027C85EEA6BC8 /* Pods-JiaGeXianForiPoneUITests.debug.xcconfig */,
+				9E49A7B1E63A916E43DF435E /* Pods-JiaGeXianForiPoneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B5CB3191C5DEBE600C2AEC6 = {
+			isa = PBXGroup;
+			children = (
+				9B5CB3531C5DEC0500C2AEC6 /* PopupControl.framework */,
+				9B5CB3551C5DED0F00C2AEC6 /* BusinessLogicLayer */,
+				9B5CB3241C5DEBE600C2AEC6 /* JiaGeXianForiPone */,
+				9B5CB3391C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests */,
+				9B5CB3441C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests */,
+				9B5CB3231C5DEBE600C2AEC6 /* Products */,
+				9065C4A92E0996F5A01B0D1B /* Pods */,
+				101A0DA8AF29676EE3C05F25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B5CB3231C5DEBE600C2AEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB3221C5DEBE600C2AEC6 /* JiaGeXianForiPone.app */,
+				9B5CB3361C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.xctest */,
+				9B5CB3411C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5CB3241C5DEBE600C2AEC6 /* JiaGeXianForiPone */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB3251C5DEBE600C2AEC6 /* AppDelegate.swift */,
+				9B5CB3271C5DEBE600C2AEC6 /* ViewController.swift */,
+				9B5CB3291C5DEBE600C2AEC6 /* Main.storyboard */,
+				9B5CB32C1C5DEBE600C2AEC6 /* Assets.xcassets */,
+				9B5CB32E1C5DEBE600C2AEC6 /* LaunchScreen.storyboard */,
+				9B5CB3311C5DEBE600C2AEC6 /* Info.plist */,
+				9BDAE9561C5DEEE9002336D7 /* JiaGeXianForiPone-Bridging-Header.h */,
+				9BDAE95B1C5DF71D002336D7 /* PrefixHeader.pch */,
+			);
+			path = JiaGeXianForiPone;
+			sourceTree = "<group>";
+		};
+		9B5CB3391C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB33A1C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.swift */,
+				9B5CB33C1C5DEBE600C2AEC6 /* Info.plist */,
+			);
+			path = JiaGeXianForiPoneTests;
+			sourceTree = "<group>";
+		};
+		9B5CB3441C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB3451C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift */,
+				9B5CB3471C5DEBE600C2AEC6 /* Info.plist */,
+			);
+			path = JiaGeXianForiPoneUITests;
+			sourceTree = "<group>";
+		};
+		9B5CB3551C5DED0F00C2AEC6 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				9BDAE9591C5DEFBF002336D7 /* HotelBL.swift */,
+			);
+			name = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B5CB3211C5DEBE600C2AEC6 /* JiaGeXianForiPone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5CB34A1C5DEBE600C2AEC6 /* Build configuration list for PBXNativeTarget "JiaGeXianForiPone" */;
+			buildPhases = (
+				6873EB9F8A8ADE35E51D40A7 /* Check Pods Manifest.lock */,
+				9B5CB31E1C5DEBE600C2AEC6 /* Sources */,
+				9B5CB31F1C5DEBE600C2AEC6 /* Frameworks */,
+				9B5CB3201C5DEBE600C2AEC6 /* Resources */,
+				713C31B5BC4AE50FEC002211 /* Embed Pods Frameworks */,
+				C064587FEC50F5778CFEB789 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiaGeXianForiPone;
+			productName = JiaGeXianForiPone;
+			productReference = 9B5CB3221C5DEBE600C2AEC6 /* JiaGeXianForiPone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B5CB3351C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5CB34D1C5DEBE600C2AEC6 /* Build configuration list for PBXNativeTarget "JiaGeXianForiPoneTests" */;
+			buildPhases = (
+				5DE5367C7B499969A20AECF4 /* Check Pods Manifest.lock */,
+				9B5CB3321C5DEBE600C2AEC6 /* Sources */,
+				9B5CB3331C5DEBE600C2AEC6 /* Frameworks */,
+				9B5CB3341C5DEBE600C2AEC6 /* Resources */,
+				3A4E1500A47B7128106B7AFB /* Embed Pods Frameworks */,
+				3949570B8AEE2AD16D9EE4A0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5CB3381C5DEBE600C2AEC6 /* PBXTargetDependency */,
+			);
+			name = JiaGeXianForiPoneTests;
+			productName = JiaGeXianForiPoneTests;
+			productReference = 9B5CB3361C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B5CB3401C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5CB3501C5DEBE600C2AEC6 /* Build configuration list for PBXNativeTarget "JiaGeXianForiPoneUITests" */;
+			buildPhases = (
+				A2B5E6A1C06242C786C13EDE /* Check Pods Manifest.lock */,
+				9B5CB33D1C5DEBE600C2AEC6 /* Sources */,
+				9B5CB33E1C5DEBE600C2AEC6 /* Frameworks */,
+				9B5CB33F1C5DEBE600C2AEC6 /* Resources */,
+				B7553DBA00B2092C35A49A12 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5CB3431C5DEBE600C2AEC6 /* PBXTargetDependency */,
+			);
+			name = JiaGeXianForiPoneUITests;
+			productName = JiaGeXianForiPoneUITests;
+			productReference = 9B5CB3411C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B5CB31A1C5DEBE600C2AEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = serx;
+				TargetAttributes = {
+					9B5CB3211C5DEBE600C2AEC6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C475P584C6;
+					};
+					9B5CB3351C5DEBE600C2AEC6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C475P584C6;
+						TestTargetID = 9B5CB3211C5DEBE600C2AEC6;
+					};
+					9B5CB3401C5DEBE600C2AEC6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C475P584C6;
+						TestTargetID = 9B5CB3211C5DEBE600C2AEC6;
+					};
+				};
+			};
+			buildConfigurationList = 9B5CB31D1C5DEBE600C2AEC6 /* Build configuration list for PBXProject "JiaGeXianForiPone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B5CB3191C5DEBE600C2AEC6;
+			productRefGroup = 9B5CB3231C5DEBE600C2AEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B5CB3211C5DEBE600C2AEC6 /* JiaGeXianForiPone */,
+				9B5CB3351C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests */,
+				9B5CB3401C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B5CB3201C5DEBE600C2AEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5CB3301C5DEBE600C2AEC6 /* LaunchScreen.storyboard in Resources */,
+				9B5CB32D1C5DEBE600C2AEC6 /* Assets.xcassets in Resources */,
+				9B5CB32B1C5DEBE600C2AEC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB3341C5DEBE600C2AEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB33F1C5DEBE600C2AEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3949570B8AEE2AD16D9EE4A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiaGeXianForiPoneTests/Pods-JiaGeXianForiPoneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4E1500A47B7128106B7AFB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiaGeXianForiPoneTests/Pods-JiaGeXianForiPoneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE5367C7B499969A20AECF4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6873EB9F8A8ADE35E51D40A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		713C31B5BC4AE50FEC002211 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiaGeXianForiPone/Pods-JiaGeXianForiPone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B5E6A1C06242C786C13EDE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7553DBA00B2092C35A49A12 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiaGeXianForiPoneUITests/Pods-JiaGeXianForiPoneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C064587FEC50F5778CFEB789 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiaGeXianForiPone/Pods-JiaGeXianForiPone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B5CB31E1C5DEBE600C2AEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDAE95A1C5DEFBF002336D7 /* HotelBL.swift in Sources */,
+				9B5CB3281C5DEBE600C2AEC6 /* ViewController.swift in Sources */,
+				9B5CB3261C5DEBE600C2AEC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB3321C5DEBE600C2AEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5CB33B1C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB33D1C5DEBE600C2AEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5CB3461C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B5CB3381C5DEBE600C2AEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5CB3211C5DEBE600C2AEC6 /* JiaGeXianForiPone */;
+			targetProxy = 9B5CB3371C5DEBE600C2AEC6 /* PBXContainerItemProxy */;
+		};
+		9B5CB3431C5DEBE600C2AEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5CB3211C5DEBE600C2AEC6 /* JiaGeXianForiPone */;
+			targetProxy = 9B5CB3421C5DEBE600C2AEC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B5CB3291C5DEBE600C2AEC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5CB32A1C5DEBE600C2AEC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B5CB32E1C5DEBE600C2AEC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5CB32F1C5DEBE600C2AEC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B5CB3481C5DEBE600C2AEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B5CB3491C5DEBE600C2AEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5CB34B1C5DEBE600C2AEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2938C4C8F46C8635741ED917 /* Pods-JiaGeXianForiPone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = JiaGeXianForiPone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = serx.JiaGeXianForiPone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JiaGeXianForiPone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B5CB34C1C5DEBE600C2AEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD90F5A4EADABCDF68BF4F6E /* Pods-JiaGeXianForiPone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = JiaGeXianForiPone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = serx.JiaGeXianForiPone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JiaGeXianForiPone-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9B5CB34E1C5DEBE600C2AEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5861E7959A0DCA46CA99606 /* Pods-JiaGeXianForiPoneTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiaGeXianForiPoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = serx.JiaGeXianForiPoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiaGeXianForiPone.app/JiaGeXianForiPone";
+			};
+			name = Debug;
+		};
+		9B5CB34F1C5DEBE600C2AEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10E37D7F622772419EBAA9B /* Pods-JiaGeXianForiPoneTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiaGeXianForiPoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = serx.JiaGeXianForiPoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiaGeXianForiPone.app/JiaGeXianForiPone";
+			};
+			name = Release;
+		};
+		9B5CB3511C5DEBE600C2AEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8470DC992027C85EEA6BC8 /* Pods-JiaGeXianForiPoneUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = JiaGeXianForiPoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = serx.JiaGeXianForiPoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiaGeXianForiPone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B5CB3521C5DEBE600C2AEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E49A7B1E63A916E43DF435E /* Pods-JiaGeXianForiPoneUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = JiaGeXianForiPoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = serx.JiaGeXianForiPoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiaGeXianForiPone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B5CB31D1C5DEBE600C2AEC6 /* Build configuration list for PBXProject "JiaGeXianForiPone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5CB3481C5DEBE600C2AEC6 /* Debug */,
+				9B5CB3491C5DEBE600C2AEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5CB34A1C5DEBE600C2AEC6 /* Build configuration list for PBXNativeTarget "JiaGeXianForiPone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5CB34B1C5DEBE600C2AEC6 /* Debug */,
+				9B5CB34C1C5DEBE600C2AEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5CB34D1C5DEBE600C2AEC6 /* Build configuration list for PBXNativeTarget "JiaGeXianForiPoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5CB34E1C5DEBE600C2AEC6 /* Debug */,
+				9B5CB34F1C5DEBE600C2AEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5CB3501C5DEBE600C2AEC6 /* Build configuration list for PBXNativeTarget "JiaGeXianForiPoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5CB3511C5DEBE600C2AEC6 /* Debug */,
+				9B5CB3521C5DEBE600C2AEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B5CB31A1C5DEBE600C2AEC6 /* Project object */;
+}
