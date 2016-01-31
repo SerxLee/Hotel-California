@@ -4,6 +4,7 @@
 # use_frameworks!
 
 target 'JiaGeXianForiPone' do
+	pod 'TBXML', '~> 1.5'
 	pod 'MKNetworkKit', '~> 0.87'
 end
 

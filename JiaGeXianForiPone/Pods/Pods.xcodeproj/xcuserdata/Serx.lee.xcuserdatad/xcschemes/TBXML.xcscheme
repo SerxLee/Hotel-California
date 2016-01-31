@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F2938DA5FAAB13A22B850FE3'
-               BlueprintName = 'Pods-JiaGeXianForiPone'
+               BlueprintIdentifier = '1EDF986F0222297DAAAFFE9A'
+               BlueprintName = 'TBXML'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-JiaGeXianForiPone.a'>
+               BuildableName = 'libTBXML.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

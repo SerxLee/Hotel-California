@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TBXML.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -42,17 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>2928DF7F724A5D0EE1AF1BC6FB0E4FA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B4F1128D0C79A4F4D837339DF183363C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE37A51E978D8EDD5525B0709E4B6274</key>
+		<key>E811118AB23F86AD6C69A77BC0307B6F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E811118AB23F86AD6C69A77BC0307B6F</key>
+		<key>FCF55F21785C9435B0EA1DB829358B6C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

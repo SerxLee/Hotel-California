@@ -18,6 +18,8 @@
 		9B5CB3461C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB3451C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift */; };
 		9B5CB3541C5DEC0500C2AEC6 /* PopupControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5CB3531C5DEC0500C2AEC6 /* PopupControl.framework */; };
 		9BDAE95A1C5DEFBF002336D7 /* HotelBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAE9591C5DEFBF002336D7 /* HotelBL.swift */; };
+		9BF52B7C1C5E3EBD0083D7A2 /* RoomBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF52B7B1C5E3EBD0083D7A2 /* RoomBL.swift */; };
+		9BF52B7E1C5E49060083D7A2 /* BLHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF52B7D1C5E49060083D7A2 /* BLHelp.swift */; };
 		D863153096C14996A74E7DC8 /* libPods-JiaGeXianForiPoneUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F786EF5AA4F95961AA768A /* libPods-JiaGeXianForiPoneUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		9BDAE9561C5DEEE9002336D7 /* JiaGeXianForiPone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JiaGeXianForiPone-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		9BDAE9591C5DEFBF002336D7 /* HotelBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HotelBL.swift; path = JiaGeXianForiPone/HotelBL.swift; sourceTree = "<group>"; };
 		9BDAE95B1C5DF71D002336D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9BF52B7B1C5E3EBD0083D7A2 /* RoomBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomBL.swift; path = JiaGeXianForiPone/RoomBL.swift; sourceTree = "<group>"; };
+		9BF52B7D1C5E49060083D7A2 /* BLHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLHelp.swift; path = JiaGeXianForiPone/BLHelp.swift; sourceTree = "<group>"; };
 		9E49A7B1E63A916E43DF435E /* Pods-JiaGeXianForiPoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPoneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPoneUITests/Pods-JiaGeXianForiPoneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D10E37D7F622772419EBAA9B /* Pods-JiaGeXianForiPoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPoneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPoneTests/Pods-JiaGeXianForiPoneTests.release.xcconfig"; sourceTree = "<group>"; };
 		D5861E7959A0DCA46CA99606 /* Pods-JiaGeXianForiPoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiaGeXianForiPoneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiaGeXianForiPoneTests/Pods-JiaGeXianForiPoneTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				9BDAE9591C5DEFBF002336D7 /* HotelBL.swift */,
+				9BF52B7B1C5E3EBD0083D7A2 /* RoomBL.swift */,
+				9BF52B7D1C5E49060083D7A2 /* BLHelp.swift */,
 			);
 			name = BusinessLogicLayer;
 			sourceTree = "<group>";
@@ -451,7 +457,9 @@
 			files = (
 				9BDAE95A1C5DEFBF002336D7 /* HotelBL.swift in Sources */,
 				9B5CB3281C5DEBE600C2AEC6 /* ViewController.swift in Sources */,
+				9BF52B7C1C5E3EBD0083D7A2 /* RoomBL.swift in Sources */,
 				9B5CB3261C5DEBE600C2AEC6 /* AppDelegate.swift in Sources */,
+				9BF52B7E1C5E49060083D7A2 /* BLHelp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
