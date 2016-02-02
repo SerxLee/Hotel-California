@@ -17,6 +17,9 @@
 		9B5CB33B1C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB33A1C5DEBE600C2AEC6 /* JiaGeXianForiPoneTests.swift */; };
 		9B5CB3461C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB3451C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift */; };
 		9B5CB3541C5DEC0500C2AEC6 /* PopupControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5CB3531C5DEC0500C2AEC6 /* PopupControl.framework */; };
+		9BD3F6201C60A15100E005A3 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3F61F1C60A15100E005A3 /* CitiesViewController.swift */; };
+		9BD3F6221C60D0F500E005A3 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BD3F6211C60D0F500E005A3 /* city.plist */; };
+		9BD3F6241C60ED9300E005A3 /* KeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3F6231C60ED9300E005A3 /* KeyViewController.swift */; };
 		9BDAE95A1C5DEFBF002336D7 /* HotelBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAE9591C5DEFBF002336D7 /* HotelBL.swift */; };
 		9BF52B7C1C5E3EBD0083D7A2 /* RoomBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF52B7B1C5E3EBD0083D7A2 /* RoomBL.swift */; };
 		9BF52B7E1C5E49060083D7A2 /* BLHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF52B7D1C5E49060083D7A2 /* BLHelp.swift */; };
@@ -59,6 +62,9 @@
 		9B5CB3451C5DEBE600C2AEC6 /* JiaGeXianForiPoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiaGeXianForiPoneUITests.swift; sourceTree = "<group>"; };
 		9B5CB3471C5DEBE600C2AEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B5CB3531C5DEC0500C2AEC6 /* PopupControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopupControl.framework; path = "../PopupControl/build/Debug-iphoneos/PopupControl.framework"; sourceTree = "<group>"; };
+		9BD3F61F1C60A15100E005A3 /* CitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		9BD3F6211C60D0F500E005A3 /* city.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = city.plist; path = ../../../usful/city.plist; sourceTree = "<group>"; };
+		9BD3F6231C60ED9300E005A3 /* KeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyViewController.swift; sourceTree = "<group>"; };
 		9BDAE9561C5DEEE9002336D7 /* JiaGeXianForiPone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JiaGeXianForiPone-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		9BDAE9591C5DEFBF002336D7 /* HotelBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HotelBL.swift; path = JiaGeXianForiPone/HotelBL.swift; sourceTree = "<group>"; };
 		9BDAE95B1C5DF71D002336D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -152,10 +158,13 @@
 			children = (
 				9B5CB3251C5DEBE600C2AEC6 /* AppDelegate.swift */,
 				9B5CB3271C5DEBE600C2AEC6 /* ViewController.swift */,
+				9BD3F61F1C60A15100E005A3 /* CitiesViewController.swift */,
+				9BD3F6231C60ED9300E005A3 /* KeyViewController.swift */,
 				9B5CB3291C5DEBE600C2AEC6 /* Main.storyboard */,
 				9B5CB32C1C5DEBE600C2AEC6 /* Assets.xcassets */,
 				9B5CB32E1C5DEBE600C2AEC6 /* LaunchScreen.storyboard */,
 				9B5CB3311C5DEBE600C2AEC6 /* Info.plist */,
+				9BD3F6211C60D0F500E005A3 /* city.plist */,
 				9BDAE9561C5DEEE9002336D7 /* JiaGeXianForiPone-Bridging-Header.h */,
 				9BDAE95B1C5DF71D002336D7 /* PrefixHeader.pch */,
 			);
@@ -306,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B5CB3301C5DEBE600C2AEC6 /* LaunchScreen.storyboard in Resources */,
+				9BD3F6221C60D0F500E005A3 /* city.plist in Resources */,
 				9B5CB32D1C5DEBE600C2AEC6 /* Assets.xcassets in Resources */,
 				9B5CB32B1C5DEBE600C2AEC6 /* Main.storyboard in Resources */,
 			);
@@ -456,8 +466,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDAE95A1C5DEFBF002336D7 /* HotelBL.swift in Sources */,
+				9BD3F6241C60ED9300E005A3 /* KeyViewController.swift in Sources */,
 				9B5CB3281C5DEBE600C2AEC6 /* ViewController.swift in Sources */,
 				9BF52B7C1C5E3EBD0083D7A2 /* RoomBL.swift in Sources */,
+				9BD3F6201C60A15100E005A3 /* CitiesViewController.swift in Sources */,
 				9B5CB3261C5DEBE600C2AEC6 /* AppDelegate.swift in Sources */,
 				9BF52B7E1C5E49060083D7A2 /* BLHelp.swift in Sources */,
 			);

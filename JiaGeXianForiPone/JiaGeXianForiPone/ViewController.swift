@@ -9,9 +9,13 @@
 import UIKit
 import PopupControl
 
-class ViewController: UIViewController ,MyDatePickerViewControllerDelegate, MyPickerViewControllerDelegate{
-
+class ViewController: UIViewController ,MyDatePickerViewControllerDelegate, MyPickerViewControllerDelegate, CitiesViewControllerDelegate,KeyViewControllerDelegate{
     
+    var checkinDatePickerViewController = PickerDateViewController()
+    var checkoutDatePickerViewController = PickerDateViewController()
+    var pickerViewController = PickerViewController()
+    
+    var cityInfo: [String: AnyObject]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +26,8 @@ class ViewController: UIViewController ,MyDatePickerViewControllerDelegate, MyPi
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
 
 }
 

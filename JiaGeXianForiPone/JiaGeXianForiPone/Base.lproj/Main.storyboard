@@ -23,7 +23,7 @@
         <!--条件搜索-->
         <scene sceneID="d6f-TZ-bwk">
             <objects>
-                <viewController id="lBw-JH-ENt" sceneMemberID="viewController">
+                <viewController id="lBw-JH-ENt" customClass="ViewController" customModule="JiaGeXianForiPone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jtl-ON-P6i">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,7 +108,7 @@
         <!--Root View Controller-->
         <scene sceneID="Bjq-lC-wW6">
             <objects>
-                <tableViewController id="gYI-kG-k6S" sceneMemberID="viewController">
+                <tableViewController id="gYI-kG-k6S" customClass="CitiesViewController" customModule="JiaGeXianForiPone" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Pu3-Jv-SVT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,7 +154,7 @@
         <!--Root View Controller-->
         <scene sceneID="TUp-dd-qeR">
             <objects>
-                <tableViewController id="y7A-Fd-Rbu" sceneMemberID="viewController">
+                <tableViewController id="y7A-Fd-Rbu" customClass="KeyViewController" customModule="JiaGeXianForiPone" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Aju-yJ-vwf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
